@@ -36,3 +36,19 @@
     transform: rotate(360deg);
   }
 }
+
+#pricipalDiv {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+#profilePhoto {
+  width: 200px;
+  border-radius: 50%;
+}
+
+body {
+  background-color: #ffd9da;;
+}
