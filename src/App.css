@@ -37,18 +37,28 @@
   }
 }
 
-#pricipalDiv {
+#pricipal-div {
   display: flex;
   flex-direction: column;
+}
+
+#div-image {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
   margin-top: 20px;
+  margin-right: 20px;
   margin-left: 20px;
 }
 
-#profilePhoto {
-  width: 200px;
-  border-radius: 50%;
+#hello-world-image {
+  width: 30%;
+}
+
+#profile-photo {
+  width: 20%;
 }
 
 body {
-  background-color: #ffd9da;;
+  background-color: black;
 }
