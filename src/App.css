@@ -42,23 +42,39 @@
   flex-direction: column;
 }
 
-#div-image {
+#section-image {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  margin-top: 20px;
-  margin-right: 20px;
-  margin-left: 20px;
+  flex-wrap: nowrap;
+  margin-top: 5%;
+  margin-right: 5%;
+  margin-left: 5%;
 }
 
 #hello-world-image {
-  width: 30%;
+  width: 40%;
 }
 
 #profile-photo {
   width: 20%;
+  height: 20%;
+  border-radius: 50%;
 }
 
 body {
   background-color: black;
+}
+
+p {
+  color: white;
+}
+
+#text-article {
+/*   border: #61dafb solid 1px; */
+  width: 70%;
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
 }
