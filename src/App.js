@@ -1,7 +1,43 @@
+import React from 'react';
 import './App.css';
-import helloWorld from './images/helloWorld.gif';
-import profilePhoto from './images/profilePhoto.png';
-import contacts from './images/contacts.gif';
+
+import { Nav, Routes } from './components/index';
+
+import './App.css';
+
+class App extends React.Component {
+  constructor() {
+    super();
+
+    this.renderRoutes = this.renderRoutes.bind(this);
+    this.renderNavBar = this.renderNavBar.bind(this);
+  }
+
+  renderNavBar() {
+    return (
+      <Nav />
+    );
+  }
+
+  renderRoutes() {
+    return (
+      <Routes />
+    );
+  }
+
+  render() {
+    return (
+      <div>
+        {this.renderNavBar()}
+        {this.renderRoutes()}
+      </div>
+    );
+  }
+}
+
+export default App;
+
+/* 
 
 function App() {
   return (
@@ -31,4 +67,4 @@ function App() {
   );
 }
 
-export default App;
+export default App; */
