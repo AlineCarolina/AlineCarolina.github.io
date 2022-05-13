@@ -1,0 +1,10 @@
+#footer-text {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #FF0099;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
