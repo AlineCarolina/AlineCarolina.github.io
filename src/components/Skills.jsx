@@ -2,9 +2,9 @@ import React from 'react';
 
 import './Skills.css';
 
-const basic = 'Básico';
-const intermediate = 'Intermediário';
-const advanced = 'Avançado';
+const basic = 'Basic';
+const intermediate = 'Intermediary';
+const advanced = 'Advanced';
 
 class Skills extends React.Component {
   render() {
@@ -27,21 +27,35 @@ class Skills extends React.Component {
         <h3>JavaScript</h3>
         <div className="progress">
           <div className="step complete">{ basic }</div>
-          <div className="step ">{ intermediate }</div>
+          <div className="step complete">{ intermediate }</div>
           <div className="step">{ advanced }</div>
         </div>
 
-        <h3>Testes Unitários e de integração</h3>
+        <h3>Git e GitHub</h3>
         <div className="progress">
           <div className="step complete">{ basic }</div>
           <div className="step complete">{ intermediate }</div>
-          <div className="step complete">{ advanced }</div>
+          <div className="step">{ advanced }</div>
+        </div>
+
+        <h3>Unit and Integration Tests</h3>
+        <div className="progress">
+          <div className="step complete">{ basic }</div>
+          <div className="step complete">{ intermediate }</div>
+          <div className="step">{ advanced }</div>
         </div>
 
         <h3>React</h3>
         <div className="progress">
           <div className="step complete">{ basic }</div>
           <div className="step complete">{ intermediate }</div>
+          <div className="step">{ advanced }</div>
+        </div>
+
+        <h3>Redux</h3>
+        <div className="progress">
+          <div className="step complete">{ basic }</div>
+          <div className="step">{ intermediate }</div>
           <div className="step">{ advanced }</div>
         </div>
 
