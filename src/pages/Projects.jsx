@@ -9,32 +9,30 @@ class Projects extends React.Component {
         <ul>
           <li>
             <img src="https://picsum.photos/id/1/100/100" alt="Imagem do Projeto 1" />
-            <h3>Projeto 1</h3>
+            <h3>Blogs API</h3>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Nunc eget accumsan sapien.
-              Sed porttitor ex diam, in posuere nisi scelerisque sit amet.
-              Donec consectetur neque nec arcu cursus volutpat.
+            I architected and developed a CRUD API for blog posts (with Sequelize and following REST principles).
             </p>
           </li>
           <li>
             <img src="https://picsum.photos/id/2/100/100" alt="Imagem do Projeto 2" />
-            <h3>Projeto 2</h3>
+            <h3>Trybesmith</h3>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Sed porttitor ex diam, in posuere nisi scelerisque sit amet.
-              Nunc eget accumsan sapien.
-              Donec consectetur neque nec arcu cursus volutpat.
+            CRUD API using node.js, typescript and MySQL.
             </p>
           </li>
           <li>
             <img src="https://picsum.photos/id/3/100/100" alt="Imagem do Projeto 3" />
-            <h3>Projeto 3</h3>
+            <h3>Spotify Clone</h3>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Nunc eget accumsan sapien.
-              Sed porttitor ex diam, in posuere nisi scelerisque sit amet.
-              Donec consectetur neque nec arcu cursus volutpat.
+            React application, using the Itunes API to play songs from the most varied bands and artists, create a list of favorite songs and edit the profile of the user logged in.
+            </p>
+          </li>
+          <li>
+            <img src="https://picsum.photos/id/1/100/100" alt="Imagem do Projeto 3" />
+            <h3>StarWars Search Planets</h3>
+            <p>
+            In this project, a list with filters of planets from the Star Wars universe was developed using Context API and Hooks to control global states.
             </p>
           </li>
         </ul>
