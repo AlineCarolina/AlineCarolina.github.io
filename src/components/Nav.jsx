@@ -1,11 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import './Nav.css'
+import '../styles/Nav.css';
 
 class Nav extends React.Component {
   render() {
     return (
-        <header>
+      <header>
         <nav>
           <ul>
             <li>

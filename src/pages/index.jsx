@@ -1,4 +1,4 @@
 export { default as AboutMe } from './AboutMe';
-export { default as ContactForm } from './ContactForm';
-export { default as Projects } from './Projects';
+export { default as ContactPage } from './ContactPage';
+export { default as ProjectsPage } from './ProjectsPage';
 export { default as SkillsPage} from './SkillsPage'

@@ -2,7 +2,7 @@ import React from 'react';
 
 import PersonalInfo from '../components/PersonalInfo';
 
-import './AboutMe.css';
+import '../styles/AboutMe.css';
 
 class AboutMe extends React.Component {
   render() {

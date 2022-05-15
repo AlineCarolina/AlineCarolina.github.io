@@ -1,11 +1,12 @@
 import React from 'react';
 import { Switch, Route } from 'react-router-dom';
-import { AboutMe, ContactForm, Projects , SkillsPage} from '../pages/index';
+import { AboutMe, ContactPage, ProjectsPage , SkillsPage} from '../pages/index';
 
 class Routes extends React.Component {
   render() {
     return (
-        <Switch>
+      <Switch>
+        
         <Route exact path="/">
           <AboutMe />
         </Route>
@@ -14,12 +15,12 @@ class Routes extends React.Component {
           <SkillsPage />
         </Route>
 
-        <Route path="/contact">
-          <ContactForm />
+        <Route path="/projects">
+          <ProjectsPage />
         </Route>
 
-        <Route path="/projects">
-          <Projects />
+        <Route path="/contact">
+          <ContactPage />
         </Route>
 
       </Switch>

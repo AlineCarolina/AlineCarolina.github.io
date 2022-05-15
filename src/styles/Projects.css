@@ -1,0 +1,23 @@
+#projects {
+  display: flex;
+  justify-content: center;
+  width: 70%;
+  margin-top: 5%;
+}
+
+#projects li:hover {
+  background: #424142;
+  cursor: pointer;
+}
+
+img {
+  width: 15%;
+  height: auto;
+  border-radius: 25%;
+}
+
+p {
+  font-family: serif;
+  font-size: 20px;
+}
+
