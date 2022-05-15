@@ -2,7 +2,7 @@ import React from 'react';
 import profilePhoto from '../images/profilePhoto.png';
 import helloWorld from '../images/helloWorld.gif';
 
-import '../styles/PersonalInfo.css';
+import '../css/PersonalInfo.css';
 
 class PersonalInfo extends React.Component {
   render() {

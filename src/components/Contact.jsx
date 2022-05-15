@@ -4,7 +4,7 @@ import linkedin from '../images/linkedin.png';
 import github from '../images/github.png';
 import whatsapp from '../images/whatsapp.png';
 
-import '../styles/Contact.css';
+import '../css/Contact.css';
 
 class Contact extends React.Component {
   render() {

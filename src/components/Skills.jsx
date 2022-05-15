@@ -1,6 +1,6 @@
 import React from 'react';
 
-import '../styles/Skills.css';
+import '../css/Skills.css';
 
 const basic = 'Basic';
 const intermediate = 'Intermediary';
