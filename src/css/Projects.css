@@ -1,8 +1,16 @@
 #projects {
-  display: flex;
-  justify-content: center;
-  width: 70%;
   margin-top: 5%;
+}
+
+#projects ul {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  width: 80%;
+}
+
+#projects li a {
+  padding: 10%;
 }
 
 #projects li:hover {

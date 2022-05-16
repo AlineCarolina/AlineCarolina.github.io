@@ -4,9 +4,7 @@ import Skills from '../components/Skills';
 class SkillsPage extends React.Component {
   render() {
     return (
-      <div>
-        <Skills />
-      </div>
+      <Skills />
     );
   }
 }

@@ -1,6 +1,4 @@
 #skills {
-  padding: 0;
-  margin: 0;
   list-style: none;
   display: flex;
   flex-wrap: wrap;
@@ -15,8 +13,8 @@
   background: #DDD;
   border: 1px solid black;
   display: flex;
-  height: 25px;
-  width: 600px;
+  height: 25%;
+  width: 60%;
 }
 
 #skills .progress .step {
