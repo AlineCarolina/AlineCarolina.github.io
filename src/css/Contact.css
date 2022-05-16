@@ -1,6 +1,6 @@
 #div-links {
   display: flex;
-  height: 50px;
+  height: 100px;
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
@@ -10,7 +10,7 @@
 }
 
 img {
-  width: 15%;
+  width: 40%;
   height: auto;
 }
 
@@ -20,20 +20,20 @@ a {
 
 #gmail-image:hover {
   cursor: pointer;
-  width: 30%;
+  width: 50%;
 }
 
 #linkedin-image:hover {
   cursor: pointer;
-  width: 30%;
+  width: 50%;
 }
 
 #github-image:hover {
   cursor: pointer;
-  width: 30%;
+  width: 50%;
 }
 
 #whatsapp-image:hover {
   cursor: pointer;
-  width: 30%;
+  width: 50%;
 }

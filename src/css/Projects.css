@@ -1,16 +1,25 @@
 #projects {
   margin-top: 5%;
+  margin-bottom: 5%;
+  width: 80%;
 }
 
 #projects ul {
   display: flex;
   justify-content: space-between;
   flex-direction: column;
-  width: 80%;
 }
 
-#projects li a {
-  padding: 10%;
+#projects ul li a {
+  width: 70%;
+  padding: 6%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  text-decoration: none;
+  color: white;
+  font-family: serif;
+  font-size: 20px;
 }
 
 #projects li:hover {
@@ -26,6 +35,6 @@ img {
 
 p {
   font-family: serif;
-  font-size: 20px;
+  font-size: 15px;
 }
 
