@@ -12,7 +12,7 @@ class PersonalInfo extends React.Component {
         <section id="section-image">
           <img src={profilePhoto} alt="Aline" id="profile-photo"/> 
           <article id="text-article">
-            <p>
+            <p id="first-p">
               Hello, my name is Aline, I'm 22 years old and I'm a Full-Stack developer.
             </p>
             <p>

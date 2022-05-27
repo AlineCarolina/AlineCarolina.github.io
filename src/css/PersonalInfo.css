@@ -19,11 +19,13 @@
 
 #hello-world-image {
   width: 60%;
+  margin-bottom: 0%;
 }
 
 #profile-photo {
   width: 40%;
   border-radius: 50%;
+  margin-top: 0%;
 }
 
 body {
@@ -32,8 +34,6 @@ body {
 
 p {
   color: white;
-  font-family: serif;
-  font-size: 20px;
 }
 
 #text-article {
@@ -44,4 +44,7 @@ p {
   display: flex;
   flex-direction: column;
   text-align: center;
+  border: #1d1d1d 1px solid;
+  padding: 8%;
 }
+

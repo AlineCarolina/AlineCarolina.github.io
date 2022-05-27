@@ -10,6 +10,7 @@ class Contact extends React.Component {
   render() {
     return (
       <div>
+        <h2>Contact me!</h2>
         <div id="div-links">
           <a href="mailto:eualine2017@gmail.com" target='_blank' rel="noreferrer" >
             <img src={gmail} alt="gmail" id="gmail-image"/>

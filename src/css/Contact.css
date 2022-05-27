@@ -9,6 +9,14 @@
   margin-left: 20%;
 }
 
+h2 {
+  color: white;
+  display: flex;
+  justify-content: center;
+  font-size: 25px;
+  margin-top: 7%;
+}
+
 img {
   width: 40%;
   height: auto;

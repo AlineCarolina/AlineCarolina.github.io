@@ -1,7 +1,7 @@
 #skills {
   list-style: none;
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   justify-content: space-between;
   align-items: center;
   flex-direction: column;
@@ -10,11 +10,12 @@
 }
 
 #skills .progress {
-  background: #DDD;
+  background: rgb(202, 202, 202);
   border: 1px solid black;
   display: flex;
-  height: 25%;
-  width: 60%;
+  height: 20%;
+  width: 100%;
+  margin-bottom: 8%;
 }
 
 #skills .progress .step {
@@ -23,6 +24,8 @@
   flex-grow: 1;
   font-weight: bold;
   justify-content: center;
+  padding: 0.5rem;
+  font-size: 16px;
 }
 
 #skills .progress .step:not(:last-child) {
