@@ -34,11 +34,11 @@ class App extends React.Component {
 
   render() {
     return (
-      <div>
+      <>
         {this.renderNavBar()}
         {this.renderRoutes()}
         {this.renderFooter()}
-      </div>
+      </>
     );
   }
 }

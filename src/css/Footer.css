@@ -1,11 +1,15 @@
 #footer-text {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  background-color: #ff35ae;
-  margin-bottom: 0%;
-  margin-top: 10%;
+  position: fixed;
   bottom: 0;
-  left: 0;
-  right: 0;
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: black;
+  border: 1px solid #1d1d1d;
+}
+
+#aline-copyright {
+  margin: 0;
 }
