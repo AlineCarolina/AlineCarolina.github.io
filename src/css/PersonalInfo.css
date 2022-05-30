@@ -1,11 +1,9 @@
-#pricipal-div {
-  display: flex;
-}
 section {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-color: #1d1d1d;
 }
 
 #hello-world-image {
