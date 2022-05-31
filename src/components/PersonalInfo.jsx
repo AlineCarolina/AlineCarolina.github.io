@@ -7,8 +7,8 @@ import '../css/PersonalInfo.css';
 class PersonalInfo extends React.Component {
   render() {
     return (
-      <div id="pricipal-div">
-        <section>
+      <div>
+        <section id="pricipal-section">
           <img src={helloWorld} alt="hello world" id="hello-world-image"/>  
           <article id="text-article">
             <img src={profilePhoto} alt="Aline" id="profile-image"/>
