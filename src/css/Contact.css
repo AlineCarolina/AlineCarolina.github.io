@@ -11,8 +11,20 @@
 }
 
 @media screen and (max-width: 470px) {
+
   #div-links {
     padding-left: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    border: 1px solid #1d1d1d;
+    height: auto;
+    width: 50%;
+    padding-left: 40%;
+    padding-top: 5%;
+    padding-bottom: 5%;
   }
 }
 
