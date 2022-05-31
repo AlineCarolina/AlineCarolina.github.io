@@ -3,7 +3,6 @@ section {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #1d1d1d;
 }
 
 #hello-world-image {
@@ -24,6 +23,7 @@ section {
   width: 40%;
   margin-right: 5%;
   border-radius: 50%;
+  float: left;
 }
 
 

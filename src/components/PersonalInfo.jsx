@@ -13,7 +13,7 @@ class PersonalInfo extends React.Component {
           <article id="text-article">
             <img src={profilePhoto} alt="Aline" id="profile-image"/>
             <p>
-              Hello, my name is Aline, I'm 22 years old and I'm a Full-Stack developer.
+              oi Hello, my name is Aline, I'm 22 years old and I'm a Full-Stack developer.
             </p>
             <p>
               I have always enjoyed learning a lot, I seek knowledge in several areas, mainly related to science and technology
