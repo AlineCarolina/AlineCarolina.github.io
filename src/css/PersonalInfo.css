@@ -1,32 +1,19 @@
-#pricipal-div {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
 #pricipal-section {
+  border: 1px solid #ccc;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  align-content: center;
 }
 
 #text-article {
-  width: 70%;
-  align-self: center;
+  border: 1px solid #ccc;
+  width: 80%;
   display: flex;
   flex-direction: column;
-  text-align: center;
-}
-
-#hello-world-image {
-  width: 40%;
-}
-
-#profile-photo {
-  width: 30%;
-  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
 }
 
 /* section {
