@@ -11,8 +11,8 @@ class PersonalInfo extends React.Component {
         <img src={helloWorld} alt="hello world" id="hello-world-image"/>  
         <article id="text-article">
           <img src={profilePhoto} alt="Aline" id="profile-image"/>
-          <p>
-            oi Hello, my name is Aline, I'm 22 years old and I'm a Full-Stack developer.
+          <p className='p-float'>
+            Hello, my name is Aline, I'm 22 years old and I'm a Full-Stack developer.
           </p>
           <p>
             I have always enjoyed learning a lot, I seek knowledge in several areas, mainly related to science and technology
