@@ -21,7 +21,7 @@ class Projects extends React.Component {
               <img src="https://picsum.photos/id/2/100/100" alt="Imagem do Projeto 2" />
               <h3>Trybesmith</h3>
               <p>
-              CRUD API using node.js, typescript and MySQL.
+              For this project, I developed a CRUD (Create, Read, Update and Delete) of medieval items, in an API format, using Typescript and a MySQL database.
               </p>
             </a>
           </li>
