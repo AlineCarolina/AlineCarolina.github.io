@@ -4,13 +4,14 @@
   align-items: center;
   justify-content: center;
   align-content: center;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 #text-article {
   border: 1px solid #1d1d1d;
   border-radius: 20px;
   padding: 3%;
-  width: 70%;
   display: flex;
   flex-direction: column;
   align-items: center;
