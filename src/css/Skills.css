@@ -3,7 +3,8 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 #skills {
@@ -15,7 +16,7 @@
   flex-direction: column;
   margin-top: 5%;
   margin-bottom: 5%;
-  width: 80%;
+  width: 85%;
   border: #1d1d1d 1px solid;
   border-radius: 20px;
   padding: 5%;
