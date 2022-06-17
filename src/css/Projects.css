@@ -66,18 +66,14 @@
   cursor: pointer;
 }
 
-img {
+.img-project {
   width: 40%;
   height: auto;
   margin: 0;
   border-radius: 20px;
 }
 
-p {
-  margin: 0;
-}
-
-h3 {
+.h3-name-project {
   margin: 0;
   font-size: 17px;
 }
