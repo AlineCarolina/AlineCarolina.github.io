@@ -1,6 +1,6 @@
 #div-links {
   display: flex;
-  height: 100px;
+  height: 150px;
   flex-direction: row;
   justify-content: center;
   align-items: center;
@@ -20,9 +20,8 @@
     border-radius: 20px;
     border: 1px solid #1d1d1d;
     height: auto;
-    max-width: 1200px;
     margin: 5px;
-    padding-left: 45%;
+    padding-left: 30%;
     padding-top: 5%;
     padding-bottom: 5%;
   }
