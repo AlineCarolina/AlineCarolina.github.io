@@ -1,5 +1,6 @@
 import React from 'react';
 import ImgSound from '../images/project-sound-on.gif';
+import ImgTrybewallet from '../images/project.gif';
 
 import '../css/Projects.css';
 
@@ -16,6 +17,20 @@ class Projects extends React.Component {
               </div>
               <p>
               React application, using the Itunes API to play songs from the most varied bands and artists, create a list of favorite songs and edit the profile of the user logged in.
+              </p>
+            </a>
+          </li>
+          <li>
+            <a href='trybe-wallet-alinecarolina.vercel.app/' target='_blank' rel='noreferrer' id="img-trybewallet">
+              <div className='div-img-h3'>
+                <h3 className='h3-name-project'>TrybeWallet</h3>
+                <img src={ImgTrybewallet} alt="GIF do Trybewallet" id="img-trybewallet"/>
+              </div>
+              <p>
+                In this project, an expense control wallet with a currency converter was developed. By using this application the user can:
+                  Add, remove and edit an expense;
+                  View a table with your expenses;
+                  View total spend converted to a currency of choice.
               </p>
             </a>
           </li>
