@@ -10,15 +10,15 @@ class App extends React.Component {
     super();
 
     this.renderRoutes = this.renderRoutes.bind(this);
-    this.renderNavBar = this.renderNavBar.bind(this);
-    this.renderFooter = this.renderFooter.bind(this);
+    /* this.renderNavBar = this.renderNavBar.bind(this); */
+    /* this.renderFooter = this.renderFooter.bind(this); */
   }
 
-  renderNavBar() {
+  /* renderNavBar() {
     return (
       <Nav />
     );
-  }
+  } */
 
   renderRoutes() {
     return (
@@ -26,18 +26,18 @@ class App extends React.Component {
     );
   }
 
-  renderFooter() {
+  /* renderFooter() {
     return (
       <Footer />
     );
-  }
+  } */
 
   render() {
     return (
       <>
-        {this.renderNavBar()}
+        {/* {this.renderNavBar()} */}
         {this.renderRoutes()}
-        {this.renderFooter()}
+        {/* {this.renderFooter()} */}
       </>
     );
   }

@@ -1,10 +1,9 @@
 body {
-  font-family: FreeMono, monospace;
-  font-size: 1.5em;
+  font-family: Comic Sans MS, Comic Sans, cursive;
+  font-size: 1.3em;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   margin: 0;
-  background-color: black;
 }
 
 code {
@@ -12,11 +11,3 @@ code {
     monospace;
 }
 
-#root {
-  margin: 0;
-  padding: 0;
-}
-
-p {
-  color: white;
-}
