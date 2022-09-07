@@ -2,16 +2,18 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  min-height: 100%;
-  margin: 0 auto -50px;
 }
 
 #pricipal-section {
-  margin-top: -550px;
+  /* margin-top: -550px;
   height: 850px;
   width: 90%;
   border-radius: 0 0 50% 50%;
-  background-color: #F4DAFF;
+  background-color: #F4DAFF; */
+  background-image: url(../images/backheader.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 90%;
 }
 
 #text-article {
@@ -26,13 +28,15 @@
 
 h1 {
   color: black;
-  margin-top: 560px;
   font-size: 2.5rem;
+  margin-top: 10px;
+  margin-bottom: 3px;
 }
 
 #avatar {
-  margin-top: 30px;
+  margin-top: 2px;
   width: 150px;
+  margin-bottom: 25px;
 }
 
 .div-article {
