@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import menu from '../images/menu.svg';
 
 import '../css/Nav.css';
 
@@ -7,6 +8,10 @@ class Nav extends React.Component {
   render() {
     return (
       <header>
+        <input type="checkbox" id="check"/>
+        <label htmlFor="check">
+          <img src={menu} alt="menu" id='menu'/>
+        </label>
         <nav>
           <ul>
             <li>

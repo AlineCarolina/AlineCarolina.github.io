@@ -3,19 +3,20 @@ import avatar from '../images/aline-avatar.png';
 import ilustracao1 from '../images/ilustracao1.png';
 import ilustracao2 from '../images/ilustracao2.png';
 import ilustracao3 from '../images/ilustracao3.png';
-
-import '../css/PersonalInfo.css';
+import Nav from './Nav';
 import Footer from './Footer';
+import '../css/PersonalInfo.css';
 
 class PersonalInfo extends React.Component {
   render() {
     return (
       <div id="pricipal-div">
         <section id="pricipal-section">
+          <Nav />
           <article id="text-article">
             <h1>Hello World!</h1>
             <p>I'm Aline, Full-Stack Developer</p>
-            <img src={avatar} alt='avatar' id='avatar'/>
+            <img src={avatar} alt="avatar "id="avatar"/>
             <div className="div-article">
               <img src={ilustracao1} alt='ilustração de pessoas montando um quebra-cabeça' className='ilustracao'/>
               <p className='p-div'>
@@ -29,15 +30,12 @@ class PersonalInfo extends React.Component {
             <div className="div-article">
               <p className='p-div'>
                 Every scientific discovery made throughout history has contributed to humanity's most incredible invention: the computer. A machine intended for data processing, capable of obeying instructions that produce transformations in that data to achieve a certain end.<br/>
-                It sounds a little poetic, and it is. 
-                {/* I believe that technology can increasingly change people's lives for the better, both as a rewarding job (which gave my life meaning), and as a solution to problems we face or will face.
-                <br/>
-                As a developer I have knowledge in the following technologies: JavaScript, HTML, CSS, React.js, Redux, Typescript, Docker, Node.js, Express.js, MySQL, React Testing Library, Mocha, Chai, Jest, Sinon, etc. */}
+                It sounds a little poetic, and it is.
               </p>
-              <img src={ilustracao2} alt='ilustração de pessoas montando um quebra-cabeça' className='ilustracao'/>
+              <img src={ilustracao2} alt='ilustração de pessoas montando uma pagina web' className='ilustracao'/>
             </div>
             <div className="div-article">
-              <img src={ilustracao3} alt='ilustração de pessoas montando um quebra-cabeça' className='ilustracao'/>
+              <img src={ilustracao3} alt='pessoas em volta de um computador' className='ilustracao'/>
               <p className='p-div'>
                 That's why I love my job. Programming transcends the human ability to solve problems, and this has revolutionized the world in many different ways.
                 <br/>
