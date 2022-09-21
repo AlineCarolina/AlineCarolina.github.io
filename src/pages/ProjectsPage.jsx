@@ -1,10 +1,16 @@
-import React from 'react';
-import Projects from '../components/Projects';
+import React, { Component } from 'react';
+import { Footer, Nav, Projects } from '../components/index';
 
-class ProjectsPage extends React.Component {
+class ProjectsPage extends Component {
   render() {
     return (
-      <Projects />
+      <div className="pricipal-div">
+        <section className="pricipal-section">
+          <Nav />
+          <Projects />
+          </section>
+        <Footer />
+      </div>
     );
   }
 }

@@ -1,10 +1,16 @@
-import React from 'react';
-import Skills from '../components/Skills';
+import React, { Component } from 'react';
+import { Footer, Nav, Skills } from '../components/index';
 
-class SkillsPage extends React.Component {
+class SkillsPage extends Component {
   render() {
     return (
-      <Skills />
+      <div className="pricipal-div">
+        <section className="pricipal-section">
+          <Nav />
+          <Skills />
+          </section>
+        <Footer />
+      </div>
     );
   }
 }

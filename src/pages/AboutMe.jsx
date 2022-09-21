@@ -1,11 +1,16 @@
-import React from 'react';
+import React, { Component } from 'react';
+import { Footer, Nav, PersonalInfo } from '../components/index';
 
-import PersonalInfo from '../components/PersonalInfo';
-
-class AboutMe extends React.Component {
+class AboutMe extends Component {
   render() {
     return (
-        <PersonalInfo />
+      <div className="pricipal-div">
+        <section className="pricipal-section">
+          <Nav />
+          <PersonalInfo />
+        </section>
+        <Footer />
+      </div>
     );
   }
 }

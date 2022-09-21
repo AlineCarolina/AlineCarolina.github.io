@@ -2,25 +2,22 @@ header {
   width: 50%;
 }
 
+input[type="checkbox"] {
+  display: none;
+}
+
+input[type="checkbox"]:checked ~ nav {
+  transform: translateX(300px)
+}
+
+input[type="checkbox"]:checked ~ nav ul li a:hover {
+  color: white;
+}
+
 #menu {
   width: 50px;
   margin-left: -20px;
   margin-top: 55px;
-}
-
-a {
-  text-decoration: none;
-  color: black;
-  display: block;
-  padding: 20px 5px;
-}
-
-ul {
-  list-style: none;
-}
-
-input[type="checkbox"] {
-  display: none;
 }
 
 nav {
@@ -32,10 +29,13 @@ nav {
   border-radius: 0 50% 50% 0;
 }
 
-input[type="checkbox"]:checked ~ nav {
-  transform: translateX(300px)
+ul {
+  list-style: none;
 }
 
-input[type="checkbox"]:checked ~ nav ul li a:hover {
-  color: white;
+a {
+  text-decoration: none;
+  color: black;
+  display: block;
+  padding: 20px 5px;
 }

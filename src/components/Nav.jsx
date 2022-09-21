@@ -1,16 +1,16 @@
-import React from 'react';
+import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import menu from '../images/menu.svg';
 
 import '../css/Nav.css';
 
-class Nav extends React.Component {
+class Nav extends Component {
   render() {
     return (
       <header>
         <input type="checkbox" id="check"/>
         <label htmlFor="check">
-          <img src={menu} alt="menu" id='menu'/>
+          <img src={menu} alt="menu" id="menu"/>
         </label>
         <nav>
           <ul>
