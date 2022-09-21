@@ -11,12 +11,20 @@ class Footer extends React.Component {
   render() {
     return (
       <>
-        <footer>
+        <footer id="footer">
           <div id='contacts'>
-            <img src={github} alt='github'/>
-            <img src={gmail} alt='gmail'/>
-            <img src={linkedin} alt='linkedin'/>
-            <img src={whatsapp} alt='whatsapp'/>
+            <a href="https://github.com/AlineCarolina" target='_blank' rel="noreferrer">
+              <img src={github} alt='github'/>
+            </a>
+            <a href="mailto:eualine2017@gmail.com" target='_blank' rel="noreferrer" >
+              <img src={gmail} alt='gmail'/>
+            </a>
+            <a href="https://linkedin.com/in/alinecarolina2022" target='_blank' rel="noreferrer">
+              <img src={linkedin} alt='linkedin'/>
+            </a>
+            <a href="https://api.whatsapp.com/send?phone=5544988342697&text=Olá, vi seu portifólio ..." target='_blank' rel="noreferrer">
+              <img src={whatsapp} alt='whatsapp'/>
+            </a>
           </div>
           <p id="aline-copyright">© Aline Carolina 2022</p>
         </footer>

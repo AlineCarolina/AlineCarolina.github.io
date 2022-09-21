@@ -1,12 +1,4 @@
 footer {
-  /*
-  display: flex;
-  justify-content: center;
-  width: 80%;
-  height: 250px;
-  margin-top: 1300px;
-  border-radius: 50% 50% 0 0;
-  background-color: rgb(244, 219, 255); */
   display: flex;
   justify-content: center;
   width: 100%;
@@ -30,5 +22,5 @@ footer {
 }
 
 #aline-copyright {
-  margin-bottom: 0px;
+  margin-bottom: 15px;
 }
