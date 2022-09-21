@@ -24,7 +24,7 @@ class Nav extends React.Component {
               <Link to="/projects">Projects</Link>
             </li>
             <li>
-              <Link to="/contact">Contacts</Link>
+              <a href="#footer">Contacts</a>
             </li>
           </ul>
         </nav>
