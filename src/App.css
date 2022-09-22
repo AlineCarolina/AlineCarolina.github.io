@@ -8,7 +8,7 @@
   background-image: url(./images/backheader.png);
   background-repeat: no-repeat;
   background-size: contain;
-  width: 90%;
+  width: 80%;
 }
 
 .text-article {
@@ -21,12 +21,33 @@
 }
 
 .p-text-article {
-  font-size: 16px;
+  font-size: 20px;
   text-align: center;
 }
 
 h1 {
   font-size: 2.5rem;
-  margin-top: -100px;
-  margin-bottom: 3px;
+  margin-top: -110px;
+  margin-bottom: 20px;
 }
+
+@media screen and (max-width: 675px) {
+  h1 {
+    font-size: 27px;
+  }
+  .p-text-article {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 490px) {
+  h1 {
+    font-size: 15px;
+    margin-top: -110px;
+    margin-bottom: 5px;
+  }
+  .p-text-article {
+    font-size: 12px;
+  }
+}
+

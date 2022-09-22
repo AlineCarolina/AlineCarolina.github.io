@@ -15,14 +15,16 @@ class Skills extends Component {
       <>
         <article className="text-article">
           <h1>Skills</h1>
-          <p className="p-text-article">
-            Below are some of the languages, tools,<br/>technologies and methodologies that I have experience.
-          </p>
           <img src={gif} alt="gears turning" id="gif-img"/>
         </article>
+        <div>
+          <p className="p-text-article">
+            Below are some of the languages, tools, technologies and methodologies that I have experience.
+          </p>
+        </div>
         <section id="section-skills">
           <div className="skill">
-            <img src={svg} alt="Front-End development"className="svg-img"/>
+            <img src={svg} alt="Front-End development" className="svg-img"/>
             <h5>Front-End development</h5>
             <section className="languages">
               <p>HTML</p>

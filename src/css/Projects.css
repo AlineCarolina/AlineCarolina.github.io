@@ -1,7 +1,7 @@
 #header-img {
   margin-top: 7px;
-  width: 150px;
-  margin-bottom: 0px;
+  width: 17%;
+  margin-bottom: 50px;
   border-radius: 50%;
 }
 
@@ -62,4 +62,57 @@
 .li-projects:hover {
   background-color: #F4DAFF;
   cursor: pointer;
+}
+
+@media screen and (max-width: 420px) {
+  .a-projects {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .li-projects {
+    border: 0;
+    margin: 10px;
+    border: 1px solid rgb(194, 194, 194);
+    padding: 10px;
+  }
+
+  .text-about-project {
+    width: 90%;
+  }
+
+  .img-project {
+    border-radius: 5px;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .text-about-project {
+    font-size: 12px;
+    margin: 0px;
+    padding: 2px;
+  }
+
+  h3 {
+    font-size: 15px;
+    margin: 2px;
+  }
+
+  .li-projects {
+    padding: 5px;
+  }
+  
+  .a-projects {
+    padding: 0px;
+  }
+
+  .div-img-h3 {
+    width: 40%;
+  }
+}
+
+@media screen and (max-width: 675px) {
+  #header-img {
+    margin-bottom: 30px;
+  }
 }

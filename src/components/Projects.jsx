@@ -12,14 +12,16 @@ class Projects extends Component {
       <>
         <article className="text-article">
           <h1>Projects</h1>
-          <p className="p-text-article">
-          Here are some proud projects <br/>that i have already developed.
-          </p>
           <img src={imgheader} alt="woman using computer" id="header-img"/>
         </article>
+        <div>
+          <p className="p-text-article">
+            Here are some proud projects that i have already developed.
+          </p>
+        </div>
         <ul id="ul-projects">
           <li className="li-projects">
-            <a href="trybe-wallet-alinecarolina.vercel.app/" target="_blank" rel="noreferrer" className="a-projects">
+            <a href="https://trybe-wallet-alinecarolina.vercel.app" target="_blank" rel="noreferrer" className="a-projects">
               <div className="div-img-h3">
                 <h3>TrybeWallet</h3>
                 <img src={ImgTrybewallet} alt="GIF do Trybewallet" className="img-project"/>

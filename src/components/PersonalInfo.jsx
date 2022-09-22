@@ -10,7 +10,7 @@ class PersonalInfo extends Component {
     return (
       <article className="text-article">
         <h1>Hello World!</h1>
-        <p>I'm Aline, Full-Stack Developer</p>
+        <p className="p-text-article">I'm Aline, Full-Stack Developer</p>
         <img src={avatar} alt="avatar" id="avatar"/>
         <div className="div-article">
           <img src={ilustracao1} alt="ilustração de pessoas montando um quebra-cabeça" className="ilustracao"/>
@@ -22,12 +22,12 @@ class PersonalInfo extends Component {
           But when I started studying computer science it was mind blowing.
           </p>
         </div>
-        <div className="div-article">
+        <div className="div-article" id="div-middle">
+          <img src={ilustracao2} alt="ilustração de pessoas montando uma pagina web" className="ilustracao" id="ilustracao3"/>
           <p className="p-div">
           Every scientific discovery made throughout history has contributed to humanity's most incredible invention: the computer. A machine intended for data processing, capable of obeying instructions that produce transformations in that data to achieve a certain end.<br/>
           It sounds a little poetic, and it is.
           </p>
-          <img src={ilustracao2} alt="ilustração de pessoas montando uma pagina web" className="ilustracao"/>
         </div>
         <div className="div-article">
           <img src={ilustracao3} alt="pessoas em volta de um computador" className="ilustracao"/>

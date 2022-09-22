@@ -1,7 +1,6 @@
 #gif-img {
-  margin-top: 2px;
-  width: 150px;
-  margin-bottom: 0px;
+  width: 17%;
+  margin-bottom: 50px;
   border-radius: 50%;
 }
 
@@ -11,7 +10,6 @@
   justify-content: space-evenly;
   align-items: flex-start;
   margin-top: 3%;
-  margin-left: 50px;
   margin-right: 3%;
 }
 
@@ -75,4 +73,31 @@
 .languages .progress .step.complete:last-child {
   border-top-right-radius: 20px;
   border-bottom-right-radius: 20px;
+}
+
+@media screen and (max-width: 450px) {
+  .svg-img {
+    width: 70px;
+    margin-top: 20px;
+  }
+
+  .skill {
+    width: 100px;
+    height: 500px;
+    padding: 10%;
+  }
+
+  h5 {
+    font-size: 12px;
+  }
+
+  .languages {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 675px) {
+  #gif-img {
+    margin-bottom: 30px;
+  }
 }

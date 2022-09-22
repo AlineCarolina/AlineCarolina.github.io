@@ -10,7 +10,7 @@ class Footer extends Component {
   render() {
     return (
       <>
-        <footer>
+        <footer id="footer">
           <div id="contacts">
             <a href="https://github.com/AlineCarolina" target='_blank' rel="noreferrer">
               <img src={github} alt='github' className='svg-contacts'/>
