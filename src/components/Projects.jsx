@@ -3,6 +3,7 @@ import ImgSound from '../images/project-sound-on.gif';
 import ImgTrybewallet from '../images/project.gif';
 import imgheader from '../images/imgprojectspage.png';
 import vscodeimg from '../images/vscodeimg.jpg';
+import imgstarwars from '../images/gifprojects.gif';
 
 import '../css/Projects.css';
 
@@ -34,6 +35,21 @@ class Projects extends Component {
               </p>
             </a>
           </li>
+
+          <li className="li-projects">
+            <a href="https://star-wars-planets-search-alinecarolina.vercel.app/" target="_blank" rel="noreferrer" className="a-projects">
+              <div className="div-img-h3">
+                <h3>StarWars Planets Search</h3>
+                <img src={imgstarwars} alt="GIF do StarWars Planets Search" className="img-project"/>
+              </div>
+              <p className="text-about-project">
+              This React application receives from an API a list with data of planets from the Star Wars universe, there are also filters where it is possible:
+                Search for a planet by name;
+                Filter planets by specific features.
+              </p>
+            </a>
+          </li>
+
           <li className="li-projects">
             <a href="https://sound-on-musics-alinecarolina.vercel.app/" target="_blank" rel="noreferrer" className="a-projects">
               <div className='div-img-h3'>
@@ -64,17 +80,6 @@ class Projects extends Component {
               </div>
               <p className="text-about-project">
               For this project, I developed a CRUD (Create, Read, Update and Delete) of medieval items, in an API format, using Typescript and a MySQL database.
-              </p>
-            </a>
-          </li>
-          <li className="li-projects">
-            <a href="https://github.com/AlineCarolina/StarWars" target="_blank" rel="noreferrer" className="a-projects">
-              <div className="div-img-h3">
-                <h3>StarWars Search Planets</h3>
-                <img src={vscodeimg} alt="Imagem do Projeto 3" className="img-project" />
-              </div>
-              <p className="text-about-project">
-              In this project, a list with filters of planets from the Star Wars universe was developed using Context API and Hooks to control global states.
               </p>
             </a>
           </li>
