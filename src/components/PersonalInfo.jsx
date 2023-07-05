@@ -16,8 +16,7 @@ class PersonalInfo extends Component {
           <img src={ilustracao1} alt="ilustração de pessoas montando um quebra-cabeça" className="ilustracao"/>
           <p className="p-div">
           Hi, my name is Aline, I'm 22 years old and I'm a Full-Stack developer.
-          From childhood
-          I was always very curious and liked to learn new things.
+          From childhood I was always very curious and liked to learn new things.
           Over the years I became more and more interested in understanding how the world works with philosophy, history, physics, chemistry, astronomy, etc.
           But when I started studying computer science it was mind blowing.
           </p>
