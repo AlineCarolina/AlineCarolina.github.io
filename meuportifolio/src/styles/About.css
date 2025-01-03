@@ -1,0 +1,72 @@
+.about-me {
+    margin-top: 15vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.about-me-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 75%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 5vw;
+    padding: 3%;
+    border-radius: 20px;
+}
+
+.about-me-image {
+    max-width: 45%;
+}
+
+.about-me-image img {
+    width: 100%;
+}
+
+.about-me-content {
+    max-width: 50%;
+}
+
+.about-me-title {
+    font-size: clamp(1.5rem, 2vw, 1.5rem);
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+.about-me-description {
+    font-size: clamp(1rem, 1.2vw, 0.62rem);
+    color: #555;
+    line-height: 1.8;
+    margin-bottom: 1.5rem;
+}
+
+.about-me-description span {
+    font-weight: bold;
+    color: #FF4864;
+}
+
+.about-me-description span:hover {
+    color: #FF4864;
+    background-color: #fee5e9;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.about-me-button {
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    color: #FF4864;
+    font-weight: bold;
+    background-color: #fee5e9;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.5s ease;
+}
+
+.about-me-button:hover {
+    background-color: #FF4864;
+    color: #fee5e9;
+}
+

@@ -1,0 +1,76 @@
+.home {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  top: 7vw;
+  position: relative;
+  margin-bottom: 5vw;
+}
+
+.home-intro {
+  display: flex;
+}
+
+.home-name {
+  font-family: 'Montserrat', sans-serif;
+  font-size: clamp(2.5rem, 5vw, 5rem);
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  color: #1a1a1a;
+  text-align: center;
+  margin: 20px 0;
+}
+
+.custom-curve {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+}
+
+.home-list {
+  list-style-type: none;
+}
+
+.home-list li {
+  opacity: 0;
+  transform: translateX(-20px);
+  animation: fadeIn 1s ease-in forwards;
+  font-size: clamp(1rem, 1.5vw, 2rem);
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.home-list li:nth-child(1) {
+  animation-delay: 0s;
+}
+
+.home-list li:nth-child(2) {
+  animation-delay: 0.5s;
+}
+
+.home-list li:nth-child(3) {
+  animation-delay: 1s;
+}
+
+@keyframes slideLeft {
+    from {
+      transform: translateX(100px);
+      opacity: 0;
+    }
+    to {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+
+.svg-typing {
+  width: 35vw;
+  animation: slideLeft 1.5s ease-out;
+}
