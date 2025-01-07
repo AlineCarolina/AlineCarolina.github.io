@@ -19,7 +19,6 @@ const Projects = () => {
             </div>
             </div>
         </div>
-{/*         <!-- Clone este bloco para adicionar mais projetos --> */}
         </div>
     </section>
     </>
