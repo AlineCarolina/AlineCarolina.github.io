@@ -1,27 +1,39 @@
-import { Link } from 'react-router-dom';
+import { useRef } from 'react';
 import '../styles/Navbar.css';
 
 const Navbar = () => {
+  const menuRef = useRef(null);
+  const toggleRef = useRef(null);
 
-    function toggleMenu() {
-        const menu = document.querySelector('.navbar-links');
-        const toggleButton = document.querySelector('.menu-toggle');
-        menu.classList.toggle('show');
-        toggleButton.classList.toggle('active');
-      }
+  function toggleMenu() {
+    menuRef.current.classList.toggle('show');
+    toggleRef.current.classList.toggle('open');
+  }
 
   return (
     <nav className="navbar">
-      <div className="navbar-logo">
-        <Link to="/">My Portfolio</Link>
+      <div className="typing-container">
+        <h1 className="typing">&gt;&gt;&gt;print(&quot;Hello World!&quot;)</h1>
       </div>
-      <ul className="navbar-links">
+      <ul className="navbar-links" ref={menuRef}>
         <li><a href="#about">About Me</a></li>
         <li><a href="#skills">Skills</a></li>
         <li><a href="#projects">Projects</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
-      <button className="menu-toggle" onClick={toggleMenu}>&#9776;</button>
+      <div
+        className="menu-wrapper"
+        onClick={toggleMenu}
+        ref={toggleRef}
+        aria-label="Toggle menu"
+        role="button"
+        tabIndex={0}
+        onKeyDown={(e) => e.key === 'Enter' && toggleMenu()}
+      >
+        <div className="bar"></div>
+        <div className="bar"></div>
+        <div className="bar"></div>
+      </div>
     </nav>
   );
 };

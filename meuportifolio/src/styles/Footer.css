@@ -1,75 +1,70 @@
-/* Estilos gerais do footer */
 .footer {
-    background-color: #1f1f1f;
-    color: #fff;
-    padding: 20px 0;
-    font-family: Arial, sans-serif;
-  }
-  
-  .footer-container {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 20px;
-  }
-  
-  .footer-section {
-    flex: 1;
-    margin: 10px;
-    min-width: 200px;
-  }
-  
-  .footer-section h4 {
-    font-size: 18px;
-    margin-bottom: 10px;
-    color: #f2a365;
-  }
-  
-  .footer-section ul {
-    list-style: none;
-    padding: 0;
-  }
-  
-  .footer-section ul li {
-    margin: 5px 0;
-  }
-  
-  .footer-section ul li a {
-    color: #fff;
-    text-decoration: none;
-    transition: color 0.3s ease;
-  }
-  
-  .footer-section ul li a:hover {
-    color: #f2a365;
-  }
-  
-  /* Redes sociais */
-  .social-links a {
-    display: inline-block;
-    margin-right: 10px;
-  }
-  
-  /* Seção de direitos autorais */
-  .footer-bottom {
-    text-align: center;
-    margin-top: 20px;
-    font-size: 14px;
-    color: #ccc;
-  }
-  
-  .footer-bottom p {
-    margin: 0;
-  }
-  
-  .footer-bottom p a {
-    color: #f2a365;
-    text-decoration: none;
-  }
-  
-  .footer-bottom p a:hover {
-    text-decoration: underline;
-  }
-  
+  background-color: #080d17;
+  color: #CBD5E1;
+  padding: 3rem 1rem 2rem;
+  font-size: 0.9rem;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid #334155;
+}
+
+.footer-section {
+  flex: 1;
+  min-width: 250px;
+}
+
+.footer-section h4 {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  color: #A78BFA;
+}
+
+.footer-section p,
+.footer-section a {
+  color: #CBD5E1;
+}
+
+.footer-section a {
+  text-decoration: none;
+  transition: color 0.3s ease;
+
+}
+
+.footer-section a:hover {
+  color: #38BDF8;
+}
+
+.social-links {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.social-links li a {
+  display: flex;
+  align-items: center;
+  padding: 0.5rem;
+}
+
+.social-links img {
+  width: 20px;
+  height: 20px;
+}
+
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 2rem;
+  color: #94A3B8;
+  font-size: 0.85rem;
+}

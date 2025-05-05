@@ -1,72 +1,80 @@
-.about-me {
-    margin-top: 15vw;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
+.about {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  width: fit-content;
 }
 
-.about-me-box {
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    width: 75%;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    margin-bottom: 5vw;
-    padding: 3%;
-    border-radius: 20px;
+.about-container {
+  max-width: 65%;
+  background-color: #1E293B;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+  padding: 3rem;
+  border-radius: 2rem;
 }
 
-.about-me-image {
-    max-width: 45%;
+.about-title {
+  font-size: clamp(2rem, 2.5vw, 3rem);
+  color: #38BDF8;
+  margin-bottom: 1.5rem;
+  font-weight: 700;
+  font-family: 'Montserrat', sans-serif;
 }
 
-.about-me-image img {
-    width: 100%;
+.about-image {
+  flex: 1 1 300px;
+  max-width: 400px;
 }
 
-.about-me-content {
-    max-width: 50%;
+.about-image img {
+  width: 100%;
+  height: auto;
 }
 
-.about-me-title {
-    font-size: clamp(1.5rem, 2vw, 1.5rem);
-    color: #333;
-    margin-bottom: 1rem;
+.about-content {
+  flex: 1 1 400px;
+  color: #e2e8f0;
 }
 
-.about-me-description {
-    font-size: clamp(1rem, 1.2vw, 0.62rem);
-    color: #555;
-    line-height: 1.8;
-    margin-bottom: 1.5rem;
+
+
+.about-text {
+  font-size: clamp(1rem, 1.2vw, 1.25rem);
+  color: #CBD5E1;
+  line-height: 1.8;
+  margin-bottom: 1.5rem;
 }
 
-.about-me-description span {
-    font-weight: bold;
-    color: #FF4864;
+.about-text span {
+  font-weight: bold;
+  color: #A78BFA;
+  transition: all 0.3s ease;
 }
 
-.about-me-description span:hover {
-    color: #FF4864;
-    background-color: #fee5e9;
-    padding: 5px;
-    border-radius: 5px;
+.about-text span:hover {
+  color: #38BDF8;
+  background-color: rgba(56, 189, 248, 0.1);
+  padding: 4px 6px;
+  border-radius: 6px;
 }
 
-.about-me-button {
-    display: inline-block;
-    padding: 0.75rem 1.5rem;
-    font-size: 1rem;
-    color: #FF4864;
-    font-weight: bold;
-    background-color: #fee5e9;
-    border-radius: 5px;
-    text-decoration: none;
-    transition: background-color 0.5s ease;
+.about-button {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #0F172A;
+  background-color: #38BDF8;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: all 0.4s ease;
 }
 
-.about-me-button:hover {
-    background-color: #FF4864;
-    color: #fee5e9;
+.about-button:hover {
+  background-color: #A78BFA;
+  color: #ffffff;
 }
-
