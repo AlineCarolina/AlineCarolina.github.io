@@ -5,7 +5,7 @@ import x from "../assets/x.svg";
 
 const Footer = () => {
     return (
-      <footer className="footer">
+      <footer className="footer" id="footer">
         <div className="footer-container">
           
           <div className="footer-section">

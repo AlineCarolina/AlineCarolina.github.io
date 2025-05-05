@@ -14,6 +14,11 @@ import sheetsSVG from "../assets/sheets.svg";
 import RSVG from "../assets/R.svg";
 import sqlSVG from "../assets/sql.svg";
 import tableauSVG from "../assets/tableau.svg";
+import bigquery from "../assets/bigquery.svg";
+import CIAtriad from "../assets/CIAtriad.svg";
+import siemtools from "../assets/siemtools.svg";
+import network from "../assets/network.svg";
+import linux from "../assets/linux.svg";
 import "../styles/Skills.css";
 
 const Skills = () => {
@@ -112,6 +117,41 @@ const Skills = () => {
           <li>
             <img src={tableauSVG} alt="Tableau" />
             <span>Tableau</span>
+          </li>
+
+          <li>
+            <img src={bigquery} alt="bigquery" />
+            <span>BigQuery</span>
+          </li>
+        </ul>
+        </div>
+
+        <div className="skill-category">
+        <h3>Cybersecurity</h3>
+        <ul>
+          <li>
+            <img src={CIAtriad} alt="CIAtriad" />
+            <span>CIA triad</span>
+          </li>
+
+          <li>
+            <img src={siemtools} alt="SIEM tools" />
+            <span>SIEM tools</span>
+          </li>
+
+          <li>
+            <img src={network} alt="networks" />
+            <span>Network Security</span>
+          </li>
+
+          <li>
+            <img src={sqlSVG} alt="SQL" />
+            <span>SQL for Cybersecurity analysis</span>
+          </li>
+
+          <li>
+            <img src={linux} alt="linux" />
+            <span>Linux </span>
           </li>
         </ul>
         </div>
