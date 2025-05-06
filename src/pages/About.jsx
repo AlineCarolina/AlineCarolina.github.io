@@ -1,6 +1,7 @@
 import "../styles/About.css";
 
 const About = () => {
+  console.log("About loaded");
   return (
     <section className="about" id="about">
       <div className="about-container">
@@ -19,5 +20,5 @@ const About = () => {
   );
 };
 
-  export default About;
+export default About;
   
