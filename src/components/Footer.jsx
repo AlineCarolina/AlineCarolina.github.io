@@ -9,7 +9,7 @@ const Footer = () => {
         <div className="footer-container">
           
           <div className="footer-section">
-            <h4>Redes Sociais</h4>
+            <h4>Social media</h4>
             <ul className="social-links">
               <li><a href="https://github.com/AlineCarolina" target="_blank"><img src={githubSVG} alt="github logo"/>GitHub</a></li>
               <li><a href="https://www.linkedin.com/in/alinecarolina2022/" target="_blank"><img src={likedinSVG} alt="Linkedin logo"/>LinkedIn</a></li>
@@ -19,17 +19,17 @@ const Footer = () => {
 
           
           <div className="footer-section">
-            <h4>Contato</h4>
+            <h4>Contact</h4>
             <ul className="social-links">
               <li>Email:<a href="mailto:eualine2025@gmail.com">eualine2025@gmail.com</a></li>
-              <li>Telefone: +55(44) 9 8834-2697</li>
+              <li>Telephone: +55(44) 9 8834-2697</li>
             </ul>
           </div>
         </div>
 
         
         <div className="footer-bottom">
-          <p>&copy; {new Date().getFullYear()} Aline Carolina. Todos os direitos reservados.</p>
+          <p>&copy; {new Date().getFullYear()} Aline Carolina. All rights reserved.</p>
         </div>
       </footer>
 

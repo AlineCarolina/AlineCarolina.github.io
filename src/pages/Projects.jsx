@@ -16,7 +16,7 @@ const Projects = () => {
             <p className="project-description">Features: User login, shopping cart, administrative panel to manage products and users.</p>
             <p className="project-description">Technologies: Node.js, Typescript, React.js, MySQL, Sequelize and Docker</p>
             <div className="project-links">
-                <a href="https://github.com/AlineCarolina/Delivery-App/tree/master" className="project-link" target="_blank">Ver no GitHub</a>
+                <a href="https://github.com/AlineCarolina/Delivery-App/tree/master" className="project-link" target="_blank">See on github</a>
             </div>
             </div>
         </div>
@@ -29,7 +29,7 @@ const Projects = () => {
             register a new task in the database, edit and delete selected tasks</p>
             <p className="project-description">Technologies: MongoDB, Docker, ESLint, Node.js, Express.js, unit testing with Chai and Mocha, react-calendar, React.js, HTML and CSS</p>
             <div className="project-links">
-                <a href="https://github.com/AlineCarolina/Calendar-ToDoList?tab=readme-ov-file" className="project-link">Ver no GitHub</a>
+                <a href="https://github.com/AlineCarolina/Calendar-ToDoList?tab=readme-ov-file" className="project-link">See on github</a>
             </div>
             </div>
         </div>
